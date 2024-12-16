@@ -1,0 +1,10 @@
+pyenv install 3.10.9  # Install via pyenv
+pyenv global 3.10.9   # Set as the global version
+py -m venv env                         
+python --version
+Python 3.10.9
+python -m venv env
+.\env\Scripts\activate
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade pip    
+python -m pip install -r requirements.txt
